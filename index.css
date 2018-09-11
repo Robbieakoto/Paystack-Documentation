@@ -1,3 +1,7 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 p {
     text-align: center;
     font-size: 16px;
@@ -5,6 +9,12 @@ p {
 
 h3 {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    color: #fff;
 }
 
 input[type=search] {
@@ -17,7 +27,7 @@ input[type=search] {
     background-image: url('searchicon.png');
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 20px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
@@ -50,6 +60,7 @@ label {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 8px;
+    min-height: 250px;
     border: none;
     border-radius: 5px;
 }
@@ -109,6 +120,9 @@ label {
         grid-template-columns: 1fr 1fr;
         padding: 5px;
     }
+    .row {
+        grid-template: repeat(2, 1fr);
+    }
     .card {
         padding: 10px;
     }
@@ -134,8 +148,7 @@ label {
 @media only screen and (min-width: 1024px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 10px;
+        grid-template-columns: repeat(3, 1fr);
     }
     input[type=search] {
         width: 30%;
@@ -153,18 +166,49 @@ label {
     }
     input[type=search]:focus {
         width: 50%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
     }
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    background-image: url('searchicon.png');
-    background-position: 10px 10px;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+    input[type=search] {
+        width: 40%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    input[type=search]:focus {
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
 }
 
 input[type=search]:focus {
@@ -173,4 +217,26 @@ input[type=search]:focus {
 
 input[type=search]:focus {
     width: 50%;
+}
+
+width: 50%;
+
+}
+idth: 50%;
+
+}
+width: 50%;
+
+}
+width: 50%;
+
+}
+width: 50%;
+
+}
+width: 50%;
+
+}
+width: 50%;
+
 }
