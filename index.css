@@ -33,7 +33,7 @@ input[type=search] {
 }
 
 input[type=search]:focus {
-    width: 50%;
+    width: 70%;
 }
 
 .modal-content {
@@ -45,7 +45,8 @@ input[type=search]:focus {
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
-    transform-origin: top right;
+    transform-origin: bottom right;
+    padding-top: 20px;
 }
 
 .modal-title {
