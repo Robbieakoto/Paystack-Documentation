@@ -58,17 +58,12 @@ label {
     font-weight: 600;
 }
 
-.card {
+.uk-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    padding: 10px;
-    max-height: 250px;
+    padding: 20px;
     border: none;
     border-radius: 5px;
-}
-
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .grid-container {
@@ -121,7 +116,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .card {
+    .uk-card {
         min-height: 300px;
     }
     .grid-item {
@@ -220,29 +215,4 @@ input[type=search]:focus {
 
 input[type=search]:focus {
     width: 50%;
-}
-
-width: 50%;
-
-}
-idth: 50%;
-
-}
-width: 50%;
-
-}
-width: 50%;
-
-}
-width: 50%;
-
-}
-width: 50%;
-
-}
-width: 50%;
-
-}
-width: 50%;
-
 }
